@@ -1,8 +1,9 @@
+/* This makes the background of the page brown */
 body {
     background-color: saddlebrown;
 }
 
-
+/*headings are all the same font, except h1 is oblique (slanting) */
 h1 {
     font: oblique 40px monospace;
   color: white;
@@ -18,6 +19,7 @@ h3 {
     color: white;
 }
 
+/* Decided to try separating the font property values to constitutent properties (font-family, font-size, etc.)*/
 p {
     font-family: Times New Roman;
     font-size: 18px;
@@ -28,11 +30,11 @@ p {
 li {
     font-family: Times New Roman;
     font-size: 20px;
-    border: 1px dotted black;
+    border: 1px dotted black; /* adding a border to my table of contents to make it pop out more */
     color: antiquewhite
 }
 
-
+/* This changes the color of the link so it's easier to see in the saddlebrown background */
 a {
     color: aqua;
 }
