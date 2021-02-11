@@ -4,9 +4,8 @@ body {
 
 
 h1 {
-    font: 40px monospace;
+    font: 40px monospace italic
   color: white;
-    font-style: oblique;
 }
 
 h2 { 
