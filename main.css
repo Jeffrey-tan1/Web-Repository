@@ -26,13 +26,12 @@ p {
 }
 
 li {
+    font-family: Times New Roman;
+    font-size: 20px;
     border: 1px dotted black;
-    color: white
+    color: antiquewhite
 }
 
-ul { 
-    font-size: 20px
-}
 
 a {
     color: aqua;
